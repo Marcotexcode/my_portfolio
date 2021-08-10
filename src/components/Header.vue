@@ -11,8 +11,6 @@
             <li class="container--menu--list" @click="myFilter"><a class="container--menu--list--link" href="#">Work</a></li>
             <li class="container--menu--list" @click="myFilter"><a class="container--menu--list--link" href="#">Certificazioni</a></li>
             <li class="container--menu--list" @click="myFilter"><a class="container--menu--list--link" href="#">Contact</a></li>
-            <li class="container--menu--list" @click="myFilter"><a class="container--menu--list--link" href="#">hello</a></li>
-
 
         </ul>
 
