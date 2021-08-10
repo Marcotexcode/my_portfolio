@@ -10,34 +10,34 @@ export default [
     },
 
     {
-        title: 'Morra Cinese',
-        link: 'https://marcotexcode.github.io/Morra_cinese/',
-        img: 'morra',
-        voto: 5,
+        title: 'Lavori in corso',
+        link: '',
+        img: '',
+        language: '',
         description: ''
     },
 
     {
-        title: 'Morra Cinese',
-        link: 'https://marcotexcode.github.io/Morra_cinese/',
-        img: 'morra',
-        voto: 5,
+        title: 'Lavori in corso',
+        link: '',
+        img: '',
+        language: '',
         description: ''
     },
 
     {
-        title: 'Morra Cinese',
-        link: 'https://marcotexcode.github.io/Morra_cinese/',
-        img: 'morra',
-        voto: 5,
+        title: 'Lavori in corso',
+        link: '',
+        img: '',
+        language: '',
         description: ''
     },
 
     {
-        title: 'Morra Cinese',
-        link: 'https://marcotexcode.github.io/Morra_cinese/',
-        img: 'morra',
-        voto: 5,
+        title: 'Lavori in corso',
+        link: '',
+        img: '',
+        language: '',
         description: ''
     },
 
