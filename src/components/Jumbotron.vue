@@ -6,7 +6,15 @@
 
       <h2 class="title-sub--title">Ciao! Sono Marco Tessitore</h2>
 
-      <span class="title-sub--subtitle">Questo e il mio portfolio</span>
+      <span class="title-sub--subtitle">Le mie conoscenze</span>
+
+      <div class="card">
+        <img class="card--image" src="@/assets/img/html.png" alt="">
+        <img class="card--image" src="@/assets/img/css.png" alt="">
+        <img class="card--image" src="@/assets/img/js.png" alt="">
+
+
+      </div>
 
     </div>
     
@@ -71,6 +79,21 @@ export default {
         font-size: 30px;
        
       }
+
+      .card {
+        display: flex;
+        margin:50px 0px;
+        border: 1px solid #000;
+        padding: 5px;
+
+        .card--image {
+          width: 20%;
+          margin: 0px 20px;
+
+        }
+
+      }
+      
 
     }
     
