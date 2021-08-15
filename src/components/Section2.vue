@@ -4,7 +4,7 @@
 
     <h2 class="container--title">Certificazioni</h2>
 
-    <BoxCertificazioni class="box-item" v-for="(link, index) in links" :key="index"  :info="link"/>
+    <BoxCertificazioni class="box-item" v-for="(link, index) in links" :key="index"  :inform="link"/>
 
   </div>
   

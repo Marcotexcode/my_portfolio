@@ -29,7 +29,7 @@
 
       props: {
 
-          info: Array
+          info: Object
 
       }
     

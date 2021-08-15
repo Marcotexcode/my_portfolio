@@ -3,13 +3,13 @@
   
     <div class="container">
 
-        <img class="container--image" :src="require(`@/assets/img/${info.img}.png`)"  alt="">
+        <img class="container--image" :src="require(`@/assets/img/${inform.img}.png`)"  alt="">
         
-        <h2 class="container--title">{{info.title}}</h2>
+        <h2 class="container--title">{{inform.title}}</h2>
 
-        <p class="container--description">{{info.description}}</p>
+        <p class="container--description">{{inform.description}}</p>
 
-        <a class="container--link" :href="info.link">Link</a>
+        <a class="container--link" :href="inform.link">Link</a>
 
     </div>
 
@@ -25,7 +25,7 @@ export default {
 
     props: {
 
-        info: Array
+        inform: Object
 
     }
 

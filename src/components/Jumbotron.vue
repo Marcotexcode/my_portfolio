@@ -8,13 +8,7 @@
 
       <span class="title-sub--subtitle">Le mie conoscenze</span>
 
-      <div class="card">
-        <img class="card--image" src="@/assets/img/html.png" alt="">
-        <img class="card--image" src="@/assets/img/css.png" alt="">
-        <img class="card--image" src="@/assets/img/js.png" alt="">
-
-
-      </div>
+    
 
     </div>
     
@@ -25,10 +19,13 @@
 
 <script>
 
+    
+
 export default {
 
-  name: 'Jumbotron'
+  name: 'Jumbotron',
 
+ 
 }
 
 </script>
@@ -42,6 +39,10 @@ export default {
     width: 100%;
     background:  #232726;
     height: 100vh;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    padding: 20%;
 
     &:hover{
       background: linear-gradient(-45deg, #333333, #aaaaaa, #494949, #232726);
@@ -62,10 +63,7 @@ export default {
     }  
     .container--title-sub {
       text-align: center;
-      position: absolute;
-      top: 50%;
-      left: 50%;
-      transform: translate(-50%, -50%);
+      
 
       .title-sub--title {
         color: $White;
@@ -89,6 +87,7 @@ export default {
         .card--image {
           width: 20%;
           margin: 0px 20px;
+          border: 1px solid #000;
 
         }
 
@@ -96,7 +95,37 @@ export default {
       
 
     }
+
+
+    .container-slider {
+            padding: 50px;
+            border: 1px solid #000;
+            .container-box--element {
+                width: 30%;
+                margin: 0 auto;
+                display: flex;
+                justify-content: center;
+                overflow:hidden;
+                border: 1px solid #000;
+
+                .element--image {
+                    width: 250px;
+                    margin-left: 100px;
+                }
+
+            }
+            
+        }
     
+  }
+
+  @media (max-width: 968px) {
+
+    .container {
+      padding: 0;
+    
+    }
+
   }
 
 

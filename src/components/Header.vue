@@ -135,20 +135,19 @@ export default {
                 position: absolute;
                 right: 0px;
                 height: 100vh;
-                top: 7.5vh;
+                top: 79px;
                 background: $Bordeaux;
-                display: flex;
                 flex-direction: column;
                 text-align: center;
                 width: 100%;
-                opacity: 0;
+                display: none;
             }
 
             // trovare un modo in cui al click dell burgher il trasform di container--menu diventa 0% perche e 
             // 100% scompare e per farlo comparire devo mettere 0%
 
             .active {
-                opacity: 1;
+                display: flex;
                 
 
             }
