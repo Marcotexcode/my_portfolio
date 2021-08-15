@@ -2,7 +2,7 @@
   
     <div class="container">
 
-        <img class="container--image" :src="require(`@/assets/img/${info.img}.jpg`)"  alt="">
+        <img class="container--image" src=""  alt="">
 
         <h2 class="container--title">{{info.title}}</h2>
 
