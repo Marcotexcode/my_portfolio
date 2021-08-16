@@ -5,7 +5,7 @@
 
         <VueSlickCarousel class="container-carousel" v-bind="settings">
 
-            <div   v-for="(link, index) in links" :key="index"  :info="link">
+            <div class="container-image"   v-for="(link, index) in links" :key="index"  :info="link">
 
                 <img class="image" :src="require(`@/assets/img/${link.img}`)"  alt="">
 
@@ -61,10 +61,35 @@
 
         .image{
             width: 100%;
-            height: 250px;
-            margin: 20px;
+            height: 220px;
+            padding: 30px;
         }
        
+    }
+
+    @media (max-width: 968px) {
+
+        .container{
+
+            .container-carousel {
+                height: 200px;
+                margin: 0;
+                padding: 0;
+
+                .container-image{
+                    height: 200px;
+
+                    .image {
+                        height: 150px;
+                        padding: 5px;
+                    }
+
+                }
+
+            }
+            
+        }
+        
     }
 
 </style>

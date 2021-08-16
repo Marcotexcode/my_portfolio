@@ -8,7 +8,7 @@
 
       <span class="title-sub--subtitle">Le mie conoscenze</span>
 
-      <Carousel class="caro"/>
+      <Carousel class="carousel"/>
     
     </div>
     
@@ -66,9 +66,9 @@
        
       }
 
-  .caro {
-    padding: 0;
-  }
+      .carousel {
+        padding: 70px;
+      }
       
 
     }
@@ -78,7 +78,17 @@
   @media (max-width: 968px) {
 
     .container {
-      padding: 0;
+      padding: 0px;
+
+      .container--title-sub {
+        padding-top: 100px;
+
+        .carousel {
+          padding: 70px 0px;
+
+        }
+
+      }
     
     }
 
