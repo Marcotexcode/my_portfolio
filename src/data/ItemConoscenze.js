@@ -18,11 +18,5 @@ export default [
     {
         img:'php.png' 
     },
-    {
-        img:'html.png' 
-    },
-    {
-        img:'html.png' 
-    },
 
 ]

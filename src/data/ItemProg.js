@@ -4,7 +4,7 @@ export default [
     {
         title: 'Morra Cinese',
         link: 'https://marcotexcode.github.io/Morra_cinese/',
-        img: 'morra.jpg',
+        img: 'morra',
         language: 'HTML, CSS, JS',
         description: 'Il classico gioco carta, forbice, sasso. Sfida il computer e cerca di vincere'
     },
@@ -12,7 +12,7 @@ export default [
     {
         title: 'Lavori in corso',
         link: '',
-        img: '',
+        img: 'morra',
         language: '',
         description: ''
     },
@@ -20,7 +20,7 @@ export default [
     {
         title: 'Lavori in corso',
         link: '',
-        img: '',
+        img: 'morra',
         language: '',
         description: ''
     },
@@ -28,7 +28,7 @@ export default [
     {
         title: 'Lavori in corso',
         link: '',
-        img: '',
+        img: 'morra',
         language: '',
         description: ''
     },
@@ -36,7 +36,7 @@ export default [
     {
         title: 'Lavori in corso',
         link: '',
-        img: '',
+        img: 'morra',
         language: '',
         description: ''
     },

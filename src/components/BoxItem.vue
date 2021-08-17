@@ -2,7 +2,7 @@
   
     <div class="container">
 
-        <img class="container--image" src=""  alt="">
+        <img class="container--image" :src="require(`@/assets/img/${info.img}.jpg`)"  :alt="info.title">
 
         <h2 class="container--title">{{info.title}}</h2>
 
@@ -18,18 +18,13 @@
 
 <script>
 
-
     export default {
 
       name: 'BoxItem',
 
-      components: {
-
-      },
-
       props: {
 
-          info: Object
+        info: Object
 
       }
     
@@ -73,6 +68,7 @@
             box-shadow: rgba(0, 0, 0, 0.35) 0px 5px 15px;
 
         }
+        
     }
 
 </style>

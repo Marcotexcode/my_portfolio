@@ -1,6 +1,6 @@
 <template>
 
-  <div class="container">
+  <div class="container" id="about">
 
     <div class="container--title-sub">
 

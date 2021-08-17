@@ -1,10 +1,10 @@
 <template>
   
-  <div class="container">
+  <div class="container" id="certificazioni">
 
     <h2 class="container--title">Certificazioni</h2>
 
-    <BoxCertificazioni class="box-item" v-for="(link, index) in links" :key="index"  :inform="link"/>
+    <BoxCertificazioni class="box-item" v-for="(link, index) in linkCert" :key="index"  :inform="link"/>
 
   </div>
   
@@ -24,7 +24,7 @@
 
         return {
 
-          links: ItemCert
+          linkCert: ItemCert
             
         }
 

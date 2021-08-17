@@ -1,12 +1,12 @@
 <template>
   
-  <div class="container">
+  <div class="container" id="work">
 
     <h2 class="container--title">Porogetti</h2>
     
     <div class="container--box">
       
-      <BoxItem class="box-item" v-for="(link, index) in links" :key="index"  :info="link"/>
+      <BoxItem class="box-item" v-for="(link, index) in linkProg" :key="index"  :info="link"/>
 
     </div>
 
@@ -16,30 +16,31 @@
 
 <script>
 
-    import ItemProg from '@/data/ItemProg.js';
-    import BoxItem from '@/components/BoxItem.vue';
+  import ItemProg from '@/data/ItemProg.js';
+  import BoxItem from '@/components/BoxItem.vue';
+  
+  export default {
 
-    export default {
+    name: 'Section1',
 
-      name: 'Section1',
+    data() {
 
-      data() {
+      return {
 
-        return {
-
-          links: ItemProg
-            
-        }
-
-      },
-
-      components: {
-
-        BoxItem
-
+        linkProg: ItemProg
+          
       }
-    
+
+    },
+
+    components: {
+
+      BoxItem
+
     }
+  
+  }
+  
 </script>
 
 <style lang="scss" scoped>
@@ -61,6 +62,8 @@
       display: flex;
       flex-wrap: wrap;
       justify-content: center;
+      overflow: hidden;
+
     }
 
     .box-item {
@@ -69,6 +72,17 @@
       width: 20%;
     }
     
+  }
+
+  @media (max-width: 968px) {
+
+
+
+
+
+
+
+
   }
 
 </style>
