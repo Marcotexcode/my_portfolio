@@ -7,10 +7,10 @@
         
         <ul class="container--menu" :class="{active: isActive}">
 
-            <li class="container--menu--list" @click="myFilter"><a class="container--menu--list--link" href="#about">About</a></li>
-            <li class="container--menu--list" @click="myFilter"><a class="container--menu--list--link" href="#work">Work</a></li>
+            <li class="container--menu--list" @click="myFilter"><a class="container--menu--list--link" href="#about">Home</a></li>
+            <li class="container--menu--list" @click="myFilter"><a class="container--menu--list--link" href="#work">Progetti</a></li>
             <li class="container--menu--list" @click="myFilter"><a class="container--menu--list--link" href="#certificazioni">Certificazioni</a></li>
-            <li class="container--menu--list" @click="myFilter"><a class="container--menu--list--link" href="#contact">Contact</a></li>
+            <li class="container--menu--list" @click="myFilter"><a class="container--menu--list--link" href="#contact">Contatti</a></li>
 
         </ul>
 

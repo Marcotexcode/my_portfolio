@@ -4,68 +4,61 @@
 
     <h2 class="container--title">Certificazioni</h2>
 
-    <BoxCertificazioni class="box-item" v-for="(link, index) in linkCert" :key="index"  :inform="link"/>
+    <BoxCertificazioni class="box-item" />
 
   </div>
   
 </template>
 
+
 <script>
 
-    import BoxCertificazioni from '@/components/BoxCertificazioni.vue';
-    import ItemCert from '@/data/ItemCert.js';
+  import BoxCertificazioni from '@/components/BoxCertificazioni.vue';
 
+  export default {
 
-    export default {
+    name: 'Section2',
 
-      name: 'Section2',
+    components: {
 
-       data() {
+      BoxCertificazioni
 
-        return {
-
-          linkCert: ItemCert
-            
-        }
-
-      },
-
-      components: {
-
-        BoxCertificazioni
-
-      }
-    
     }
+  
+  }
+
 </script>
+
 
 <style lang="scss" scoped>
 
   @import '@/style/variabili.scss';
 
-
   .container {
     background:  #232726;
     text-align: center;
-    padding: 10px;
+    padding: 10px 50px;
     width: 100%;
 
     .container--title {
-      margin: 90px 0px;
+      margin: 90px 0px 10px;
       text-transform: uppercase;
     }
-    .container--box {
-      display: flex;
-      flex-wrap: wrap;
-      justify-content: space-between;
-    }
+  
+  }
 
-    .box-item {
-      padding: 25px;
-      background: $Bordeaux;
-      width: 20%;
-    }
-    
+  @media (max-width: 968px) {
+
+      .container {
+        padding: 10px 15px;
+
+        .container--title {
+          margin: 90px 0px 0px;
+
+        }
+
+      }
+
   }
 
 </style>

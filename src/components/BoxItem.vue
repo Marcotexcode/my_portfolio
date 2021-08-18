@@ -8,7 +8,7 @@
 
                 <div class="box">
 
-                    <img class="container--image" :src="require(`@/assets/img/${link.img}.jpg`)"  :alt="link.title">
+                    <img class="container--image" :src="require(`@/assets/img/${link.img}`)"  :alt="link.title">
 
                     <h2 class="container--title">{{link.title}}</h2>
 
@@ -83,7 +83,7 @@
     @import '@/style/variabili.scss';
 
     .container {
-
+        
         .container--image {
             width: 100%;
         }
