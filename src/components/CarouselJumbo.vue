@@ -3,7 +3,7 @@
 
     <div class="container">
 
-        <VueSlickCarousel class="container-carousel" v-bind="settings">
+        <VueSlickCarousel  class="container-carousel" v-bind="settings">
 
             <div class="container-image"   v-for="(link, index) in links" :key="index"  :info="link">
 
@@ -25,7 +25,7 @@
     import ItemConoscenze from '@/data/ItemConoscenze.js';
 
     export default {
-        name: 'Carousel',
+        name: 'CarouselJumbo',
 
         components: { VueSlickCarousel },
 

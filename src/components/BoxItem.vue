@@ -2,15 +2,27 @@
   
     <div class="container">
 
-        <img class="container--image" :src="require(`@/assets/img/${info.img}.jpg`)"  :alt="info.title">
+        <VueSlickCarouse class="cont-caro" v-bind="settings" > 
 
-        <h2 class="container--title">{{info.title}}</h2>
+            <div class="container-box" v-for="(link, index) in linkProg" :key="index">
 
-        <p class="container--description">{{info.description}}</p>
+                <div class="box">
 
-        <h3 class="container--language">Linguaggi: <span>{{info.language}}</span></h3>
+                    <img class="container--image" :src="require(`@/assets/img/${link.img}.jpg`)"  :alt="link.title">
 
-        <a class="container--link" :href="info.link">Link</a>
+                    <h2 class="container--title">{{link.title}}</h2>
+
+                    <p class="container--description">{{link.description}}</p>
+
+                    <h3 class="container--language">Linguaggi: <span>{{link.language}}</span></h3>
+
+                    <a class="container--link" :href="link.link">Link</a>
+
+                </div>
+
+            </div>
+
+        </VueSlickCarouse> 
 
     </div>
   
@@ -18,27 +30,60 @@
 
 <script>
 
+    import ItemProg from '@/data/ItemProg.js';
+    import VueSlickCarouse from 'vue-slick-carousel';
+    import 'vue-slick-carousel/dist/vue-slick-carousel-theme.css';
+
     export default {
 
       name: 'BoxItem',
 
-      props: {
+        data() {
+            return {
 
-        info: Object
+                settings: {
 
-      }
+                    "infinite": true,
+                    "slidesToShow": 3,
+                    "slidesToScroll": 1,
+                    "autoplay": true,
+                    "arrows": true,
+                    "responsive": [
+                        
+                        {
+                            "breakpoint": 968,
+                            "settings": {
+                                "slidesToShow": 1,
+                                "arrows": false,
+
+                            
+                            }
+                        }
+                    ]
+                },
+
+                linkProg: ItemProg
+
+            }
+        },
+
+        components: {
+
+            VueSlickCarouse
+
+        }
     
     }
 
 </script>
 
+
 <style lang="scss" scoped>
 
+    @import '@/style/variabili.scss';
+
     .container {
-        border-radius: 10px;
-        width: 20%;
-        margin: 10px;
-        
+
         .container--image {
             width: 100%;
         }
@@ -66,8 +111,26 @@
             color: white;
             padding: 10px 30px;
             box-shadow: rgba(0, 0, 0, 0.35) 0px 5px 15px;
-
         }
+
+        .cont-caro {
+            display: flex;
+            align-items: center;
+            padding: 10px;
+            
+            .container-box {
+
+                .box {
+                    height: 100%;
+                    border-radius: 20px;
+                    background: $Bordeaux;
+                    padding: 20px;
+                    margin: 5%;
+                }
+
+            }
+
+        }   
         
     }
 

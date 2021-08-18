@@ -3,45 +3,32 @@
   <div class="container" id="work">
 
     <h2 class="container--title">Porogetti</h2>
-    
-    <div class="container--box">
       
-      <BoxItem class="box-item" v-for="(link, index) in linkProg" :key="index"  :info="link"/>
-
-    </div>
+    <BoxItem class="box-item" />
 
   </div>
   
 </template>
 
-<script>
 
-  import ItemProg from '@/data/ItemProg.js';
+<script>
+  
   import BoxItem from '@/components/BoxItem.vue';
   
   export default {
 
     name: 'Section1',
 
-    data() {
-
-      return {
-
-        linkProg: ItemProg
-          
-      }
-
-    },
-
     components: {
 
-      BoxItem
+      BoxItem,
 
     }
   
   }
   
 </script>
+
 
 <style lang="scss" scoped>
 
@@ -51,37 +38,21 @@
   .container {
     background: #45567d;
     text-align: center;
-    padding: 10px;
+    padding: 10px 50px;
     width: 100%;
 
     .container--title {
-      margin: 90px 0px;
+      margin: 90px 0px 10px;
       text-transform: uppercase;
     }
-    .container--box {
-      display: flex;
-      flex-wrap: wrap;
-      justify-content: center;
-      overflow: hidden;
-
-    }
-
-    .box-item {
-      padding: 25px;
-      background: $Bordeaux;
-      width: 20%;
-    }
-    
+   
   }
 
   @media (max-width: 968px) {
 
-
-
-
-
-
-
+      .container {
+        padding: 10px 15px;
+      }
 
   }
 

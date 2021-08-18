@@ -8,7 +8,7 @@
 
       <span class="title-sub--subtitle">Le mie conoscenze</span>
 
-      <Carousel class="carousel"/>
+      <CarouselJumbo class="carousel"/>
     
     </div>
     
@@ -19,7 +19,7 @@
 
 <script>
 
-  import Carousel from '@/components/Carousel.vue';
+  import CarouselJumbo from '@/components/CarouselJumbo.vue';
 
   export default {
 
@@ -27,7 +27,7 @@
 
     components: { 
 
-      Carousel
+      CarouselJumbo
 
     },
 
