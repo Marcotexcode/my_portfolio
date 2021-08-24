@@ -15,7 +15,7 @@
 
                     <p class="container--description">{{link.description}}</p>
 
-                    <a class="container--link" :href="link.link">Link</a>
+                    <a class="container--link" target="_blank" :href="link.link">Link</a>
 
                 </div>
 

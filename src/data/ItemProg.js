@@ -33,12 +33,4 @@ export default [
         description: ''
     },
 
-    {
-        title: 'Lavori in corso',
-        link: '',
-        img: 'noimg.png',
-        language: '',
-        description: ''
-    },
-
 ]

@@ -4,7 +4,7 @@
 
     <div class="container--title-sub">
 
-      <h2 class="title-sub--title">Ciao! Sono Marco Tessitore</h2>
+      <h2 class="title-sub--title">Ciao! Questo  e il mio portfolio</h2>
 
       <span class="title-sub--subtitle">Le mie conoscenze</span>
 

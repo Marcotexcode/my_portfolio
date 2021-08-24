@@ -16,7 +16,7 @@
 
                     <h3 class="container--language">Linguaggi: <span>{{link.language}}</span></h3>
 
-                    <a class="container--link" :href="link.link">Link</a>
+                    <a class="container--link" target="_blank" :href="link.link">Link</a>
 
                 </div>
 
@@ -54,9 +54,7 @@
                             "breakpoint": 968,
                             "settings": {
                                 "slidesToShow": 1,
-                                "arrows": false,
-
-                            
+                                "arrows": false,  
                             }
                         }
                     ]

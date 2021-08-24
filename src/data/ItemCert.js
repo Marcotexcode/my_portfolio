@@ -26,18 +26,5 @@ export default [
         img: 'noimg.png',
         description: 'lorem im.....'
     },
-    {
-        title: 'Lavori in corso',
-        link: '',
-        img: 'noimg.png',
-        description: 'lorem im.....'
-    },
-    {
-        title: 'Lavori in corso',
-        link: '',
-        img: 'noimg.png',
-        description: 'lorem im.....'
-    },
-
 
 ]
