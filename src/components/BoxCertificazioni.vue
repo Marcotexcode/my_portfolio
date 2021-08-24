@@ -53,12 +53,13 @@
                     "responsive": [
                         
                         {
+                            
                             "breakpoint": 968,
                             "settings": {
+
                                 "slidesToShow": 1,
                                 "arrows": false,
 
-                            
                             }
 
                         }
