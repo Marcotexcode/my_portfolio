@@ -6,16 +6,15 @@
 
     <div class="contact-icon">
         
-        <a class="contact" href=""><i class="fab icon fa-facebook"></i><h2 class="contact-text">Facebook</h2></a>
-        <a class="contact" href=""><i class="fab icon fa-twitter"></i><h2 class="contact-text">Twitter</h2></a>
-        <a class="contact" href=""><i class="fab icon fa-github"></i><h2 class="contact-text">GitHub</h2></a>
-        <a class="contact" href=""><i class="fas icon fa-envelope"></i><h2 class="contact-text">Mail</h2></a>
-        <a class="contact" href=""><i class="fas icon fa-phone"></i><h2 class="contact-text">Phone</h2></a>
+        <a class="contact" target="_blank" href="https://www.facebook.com/mtessitore"><i class="fab icon fa-facebook"></i><h2 class="contact-text">Facebook</h2></a>
+        <a class="contact" target="_blank" href=""><i class="fab icon fa-twitter"></i><h2 class="contact-text">Twitter</h2></a>
+        <a class="contact" target="_blank" href="https://github.com/Marcotexcode"><i class="fab icon fa-github"></i><h2 class="contact-text">GitHub</h2></a>
+        <a class="contact" target="_blank" href=""><i class="fas icon fa-envelope"></i><h2 class="contact-text">Mail</h2></a>
+        <a class="contact" target="_blank" href=""><i class="fas icon fa-phone"></i><h2 class="contact-text">Phone</h2></a>
 
         
-      </div>
+    </div>
       
-
   </div>
   
 </template>
