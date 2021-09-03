@@ -18,5 +18,9 @@ export default [
     {
         img:'php.png' 
     },
+    {
+        img:'laravel.png' 
+    },
+
 
 ]
