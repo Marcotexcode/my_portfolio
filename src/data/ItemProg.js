@@ -18,11 +18,11 @@ export default [
     },
 
     {
-        title: 'Lavori in corso',
-        link: '',
-        img: 'noimg.png',
-        language: '',
-        description: ''
+        title: 'Boolflix',
+        link: 'https://xenodochial-jang-52a161.netlify.app/',
+        img: 'booflix.png',
+        language: 'HTML, CSS, JS, VUE, API, NPM',
+        description: 'Single page (SPA), Prendendo spunto dall\' applicazione di servizio streaming \'NETFLIX\' ho ricreato una lista di film e telefilm con ricerca in base al titolo, facendo una chiamata API al Database https://www.themoviedb.org/ e inserirli dinamicamente.'
     },
 
     {
