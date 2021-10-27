@@ -2,7 +2,7 @@
   
   <div class="container" id="work">
 
-    <h2 class="container--title">Porogetti</h2>
+    <h2 class="container--title">Progetti</h2>
       
     <BoxItem class="box-item" />
 
